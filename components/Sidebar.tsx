@@ -14,7 +14,7 @@ import {
 } from "react-icons/md";
 import { BsRecordBtn } from "react-icons/bs";
 
-const getIcon = (label: string) => {
+export const getIcon = (label: string) => {
   switch (label) {
     case "Home":
       return <MdHomeFilled />;
